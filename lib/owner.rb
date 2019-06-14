@@ -74,6 +74,7 @@ class Owner
     end
     end
     
+    @pets.clear
     
   end
   
