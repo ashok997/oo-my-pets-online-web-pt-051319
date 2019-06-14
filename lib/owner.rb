@@ -35,4 +35,9 @@ class Owner
   def name=(name)
     @name = name
   end
+  
+  def buy_fish(fish)
+    f1 = Fish.new(fish)
+    
+  end
 end
