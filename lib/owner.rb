@@ -75,9 +75,7 @@ class Owner
   end
   
   def list_pets
-    @pets.each do |types, pets|
-     puts  pets.count
-    end
+   binding.pry
   end
   
 end
