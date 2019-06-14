@@ -77,7 +77,7 @@ class Owner
   def list_pets
     @pets.each do |types, pets|
       pets.count
-        
+    end
   end
   
 end
